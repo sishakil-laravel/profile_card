@@ -1,0 +1,121 @@
+*{
+margin: 0;
+padding: 0;
+font-family:Tahoma, sans-serif, Verdana, Geneva;
+}
+
+.init-body{
+    width: 100%;
+    
+}
+
+
+/* ==    left section   ======== */
+
+.sectionLeft{
+    width: 40%;
+    /* background: green; */
+    position: fixed;
+    float: left;
+    text-align: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.left_main_body {
+	width: 300px;
+	box-shadow: 0px 1px 4px #000;
+	margin: auto;
+	border-radius: 5px;
+	padding: 30px;
+    margin-top: 20px;
+}
+
+
+
+.sectionLeft .profileOverview .img img{
+    border-radius: 100px;
+    border: 1px dashed #000;
+    
+}
+
+
+.description{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.count_Section{
+    text-align: center;
+    display: flex;
+}
+
+.count_Section .project, .following, .followers{
+    width: 30%;
+    float: left;
+    margin-left: 3px;
+
+}
+
+
+.social_button{
+    width: 230px;
+    margin: auto;
+}
+.social_button .btn_follow{
+    float: left;
+}
+
+.social_button a{
+    text-decoration: none;
+    padding: 5px 20px;
+    background: transparent;
+    border: 1px solid #000;
+    width: 60px;
+    color: #000;
+    border-radius: 5px;
+}
+
+
+.social_button .btn_follow a{
+    
+}
+
+.social_button .btn_hireMe{
+    float: right;
+}
+
+.social_button .btn_hireMe a{
+    
+    
+}
+
+.social_button a:hover{
+    background: #000;
+    color: #fff;
+}
+
+
+.contact_info{}
+.contact_info table{
+    text-align: left;
+}
+/* ==    left section end  ======== */
+
+
+
+/*   =========  Right Section ================== */
+
+.sectionRight{
+    width: 55%;
+    float: right;
+    /* background: red; */
+    height: 200px;
+    padding: 20px;
+    
+}
+
+.about_section{
+    margin-bottom: 20px;
+}
+
